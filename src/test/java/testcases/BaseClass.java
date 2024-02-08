@@ -37,6 +37,7 @@ public class BaseClass {
 		//comment added in the file
 		//second comment added
 		//added thrid commnet
+		// added fourth comment
 		logger=Logger.getLogger("Automation Project");
 		PropertyConfigurator.configure("log4j.properties");
 		if(br.equals("firefox")) {
