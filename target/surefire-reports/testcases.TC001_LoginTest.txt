@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: testcases.TC001_LoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 38.432 s <<< FAILURE! - in testcases.TC001_LoginTest
+loginTest(testcases.TC001_LoginTest)  Time elapsed: 5.019 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+Dismissed user prompt dialog: User or Password is not valid: 
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6ed61ed2-1599-49d7-8d52-52e23f4ed2cf, findElement {using=partial link text, value=Log out}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:41925, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12232, moz:profile: C:\Users\abdul\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:41925/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6ed61ed2-1599-49d7-8d52-52e23f4ed2cf
+	at testcases.TC001_LoginTest.loginTest(TC001_LoginTest.java:16)
+
