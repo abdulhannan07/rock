@@ -36,6 +36,7 @@ public class BaseClass {
 	public void setBrowser(String br) {
 		//comment added in the file
 		//second comment added
+		//added thrid commnet
 		logger=Logger.getLogger("Automation Project");
 		PropertyConfigurator.configure("log4j.properties");
 		if(br.equals("firefox")) {
